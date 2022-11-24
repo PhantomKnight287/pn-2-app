@@ -2,4 +2,4 @@
     (PN)<sup>2</sup> Stack
 </h1>
 
-This stack uses Nextjs,Nestjs,Prisma and Postgres. This branch contains code for backend and frontend in different folders. To get monorepo setup check `monorepo` branch.
+This branch uses `turborepo` for a monorepo, you can share types between your client and backend using the `db` package. The `db` package contains config for prisma and it is added as dependency in frontend as well as backend.
